@@ -1,10 +1,53 @@
-body{
-  font-family: 'Playfair Display', serif;
+body
+{
+  font-family: 'Roboto', sans-serif;
+  /* background-color: gray; */
+  color: #373737;
+
 }
 
+#main {
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
+#title {
+  text-align: center;
+}
+
+#img-caption {
+  text-align: center;
+}
+#Description {
+  margin: auto;
+  text-align: center;
+}
+
+#tribute-info {
+  text-align: left;
+  width: 40%;
+  position:relative;
+  left: 30%;
+}
+
+#tribute-link {
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  background-color: #0d98ba;
+  color: white;
+  padding: 15px;
+  margin-bottom: 5%;
+}
 
 #image {
   max-width: 100%;
   height: auto;
-  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 15px;
 }
