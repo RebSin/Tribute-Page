@@ -1,0 +1,10 @@
+body{
+  font-family: 'Playfair Display', serif;
+}
+
+
+#image {
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
