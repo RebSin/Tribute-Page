@@ -13,7 +13,9 @@ body
 
 #title {
   text-align: center;
-  color: #4285F4;
+  font-size: 500%;
+  margin-bottom: 0;
+  /* color: #4285F4; */
 }
 
 #img-caption {
